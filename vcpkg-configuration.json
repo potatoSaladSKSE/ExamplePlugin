@@ -1,15 +1,18 @@
 {
-    "registries": [
-        {
-            "kind": "git",
-            "repository": "https://gitlab.com/colorglass/vcpkg-colorglass",
-            "baseline": "ef8d43afe4d26e842de3d034bff1081cb7990f07",
-            "packages": [
-                "commonlibsse-ng",
-                "gluino",
-                "script-extender-common",
-                "skse"
-            ]
-        }
-    ]
+  "default-registry": {
+    "kind": "git",
+    "repository": "https://github.com/microsoft/vcpkg",
+    "baseline": "472ed329f5492e133028dd12a3b4758b0b676d00"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://gitlab.com/colorglass/vcpkg-colorglass",
+      "baseline": "ef8d43afe4d26e842de3d034bff1081cb7990f07",
+      "packages": [
+        "commonlibsse-ng",
+        "skse"
+      ]
+    }
+  ]
 }
